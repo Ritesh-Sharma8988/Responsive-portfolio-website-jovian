@@ -1,0 +1,130 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #1E293B;
+    /* text-align: justify; */
+    
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+    color: #020617;
+    font-family: "Inter",snas-serif;
+    /* text-decoration: line-through; */
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #3B82F6;
+}
+a:hover{
+    color:#1D4ED8 ;
+}
+h2{
+    text-align: center;
+}
+
+#navbar{
+    padding: 4px 8px;
+    display: flex;
+}
+#navbar img{
+    width: 30px;
+}
+#navbar #name{
+    padding-top: 14px;
+}
+
+#banner{
+    width: 100%;
+    object-fit: cover;
+}
+
+#aboutme{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#aboutme div{
+    margin:20px;
+    width: 50%;
+}
+#description{
+    margin-left: 400px;
+    font-style: italic;
+    line-height: 1.5;
+}
+#aboutme img{
+    border-radius: 100%;
+    border: 5px solid rgba(9, 78, 6, 0.643);
+    width: 95%;
+    object-fit: cover;
+
+}
+#jobs-table{
+    border: 1px solid gray;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+    border-collapse: collapse;
+}
+
+.job-header th{
+    border: 1px solid gray;
+    padding: 12px;
+    background-color: #BAE6FD;
+    color: #020617;
+}
+
+.job-data td{
+    padding: 12px;
+    border: 1px solid gray;
+}
+
+tr:nth-child(odd){
+    background-color: #E0F2FE;
+}
+#myform{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #BAE6FD;
+    max-width: 400px;
+    width: 80%;
+    margin: auto;
+}
+#myform div{
+    margin: 4px;
+    padding: 8px;
+    border: 1px solid black;
+    background-color: #E0F2FE;
+}
+
+#footer{
+    margin-top: 30px;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgba(224, 223, 223, 0.808);
+}
+
+#footer ul{
+    list-style-type: none;
+    text-align: center;
+}
+#footer ul li{
+    padding: 0px 8px;
+    display: inline;
+
+}
+#footer div{
+    color: gray;
+    padding-top: 20px;
+}
+
+#dummy{
+    max-width: 800px;
+    margin: 0 auto;
+}
